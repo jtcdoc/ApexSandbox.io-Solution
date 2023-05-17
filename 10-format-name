@@ -1,2 +1,2 @@
 public String formatName(String firstName, String lastName) {
-IF(String.isblank(firstName) is true AND String.isblank(lastName) is false) return ','+lastName;}
+IF(String.isblank(firstName) is true AND String.isblank(lastName) is false) return lastName+',';}
