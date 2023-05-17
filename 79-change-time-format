@@ -1,0 +1,7 @@
+public String changeTimeFormat(String strTime) {
+String minutes, hours;
+minutes = strTime.substringAfter(':');
+hours = strTime.substringBefore(':');
+String time;
+time = hours+':'+minutes+'AM';    //code here
+}
