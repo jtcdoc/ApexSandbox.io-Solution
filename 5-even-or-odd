@@ -1,0 +1,3 @@
+public String evenOrOdd(Integer num) {
+if(math.mod(num) <> 2) Return 'odd' else 'even';    //code here
+}
