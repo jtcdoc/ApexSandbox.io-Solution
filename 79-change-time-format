@@ -3,5 +3,6 @@ String minutes, hours;
 minutes = strTime.substringAfter(':');
 hours = strTime.substringBefore(':');
 String formattime;
-formattime = hours+':'+minutes+'AM';    //code here
+formattime = hours+':'+minutes+'AM';
+return formattime;    //code here
 }
