@@ -1,6 +1,6 @@
 public String ageGroup(Integer n) {
-IF(ageGroup <2) return 'Infant';
-IF(ageGroup >1 && ageGroup <15) return 'Child';
+IF(n <2) return 'Infant';
+IF(n >1 && n <15) return 'Child';
 //IF(ageGroup=='paper' && ageGroup == 'rock') return 1;
 else return 'Adult';   //code here
 }
