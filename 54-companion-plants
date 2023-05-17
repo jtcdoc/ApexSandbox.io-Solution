@@ -1,6 +1,6 @@
 public Boolean companionPlants(String plant1, String plant2) {
 IF(plant1=='lettuce' && plant2 == 'Cucumbers') return TRUE;
-IF(plant2=='cucumbers' && plant1 == 'lettuce') return TRUE;
+IF(plant2=='Cucumbers' && plant1 == 'lettuce') return TRUE;
 IF(plant1=='lettuce' && plant2 == 'onions') return TRUE;
 IF(plant2=='onions' && plant1 == 'lettuce') return TRUE;
 IF(plant1=='onions' && plant2 == 'carrots') return TRUE;
