@@ -1,11 +1,11 @@
 public Boolean companionPlants(String plant1, String plant2) {
 IF(plant1=='lettuce' && plant2 == 'Cucumbers') return TRUE;
-IF(plant2=='Cucumbers' && plant1 == 'lettuce') return TRUE;
+IF(plant1=='Cucumbers' && plant2 == 'lettuce') return TRUE;
 IF(plant1=='lettuce' && plant2 == 'onions') return TRUE;
-IF(plant2=='Onions' && plant1 == 'lettuce') return TRUE;
+IF(plant1=='Onions' && plant2 == 'lettuce') return TRUE;
 IF(plant1=='Onions' && plant2 == 'carrots') return TRUE;
-IF(plant2=='carrots' && plant1 == 'onions') return TRUE;
+IF(plant1=='carrots' && plant2 == 'onions') return TRUE;
 IF(plant1=='onions' && plant2 == 'tomatoes') return TRUE;
-IF(plant2=='tomatoes' && plant1 == 'onions') return TRUE;
+IF(plant1=='tomatoes' && plant2 == 'onions') return TRUE;
 ELSE return FALSE;    //code here
 }
