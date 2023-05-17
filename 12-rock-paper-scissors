@@ -1,4 +1,4 @@
 public Integer rockPaperScissors(String player1, String player2) {
-IF(player1=='rock' && player2 == 'paper') return 2; 
+IF(player1=='rock' && player2 == 'paper') return 1; 
     //code here
 }
