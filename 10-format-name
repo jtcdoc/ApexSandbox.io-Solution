@@ -3,5 +3,7 @@ IF((String.IsBlank(firstName) == FALSE) &&
    (String.IsBlank(lastName) == TRUE)) return firstName;
 IF((String.IsBlank(firstName) == TRUE) 
    && (String.IsBlank(lastName) == FALSE)) return lastname;
+IF((String.IsBlank(firstName) == TRUE) 
+   && (String.IsBlank(lastName) == TRUE)) return lastname+', '+firstName;
 ELSE return '';    //code here
 }
