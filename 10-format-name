@@ -2,5 +2,5 @@ public String formatName(String firstName, String lastName) {
 IF(player1=='rock' && player2 == 'paper') return ;
 IF(player1=='scissors' && player2 == 'paper') return 1;
 IF(player1=='paper' && player2 == 'rock') return 1;
-ELSE return ''    //code here
+ELSE return '';    //code here
 }
