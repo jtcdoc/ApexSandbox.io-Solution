@@ -1,6 +1,6 @@
 public String whichTwo(Integer a, Integer b, Integer c) {
-IF((a + b) == c) return c; 
-else IF((b + c) == a) return a;
-else IF((c + a) == b) return b;
+IF((a + b) == c) return 'c'; 
+else IF((b + c) == a) return 'a';
+else IF((c + a) == b) return 'b';
 else return '';    //code here
 }
