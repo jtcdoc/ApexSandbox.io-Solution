@@ -1,2 +1,3 @@
 public Boolean sumEquals(Integer a, Integer b, Integer c) {
-RETURN IF((A + B) == C ) TRUE ELSE RETURN FALSE;}
+IF((a + b) == c) return TRUE; else FALSE;   //code here
+}
